@@ -5,7 +5,7 @@ body{
 .name{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -39,4 +39,27 @@ section{
 }
 #para2{
     padding-right: 110px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+   margin-left: 5%;
+   margin-right: 5% ;
+   padding-left: 20px;
+   border-radius: 5%;
+    box-shadow: 10px 10px 10px gray;
+}
+#Full-Stack-Developer{
+    border-left: 6px solid tomato;
+}
+#Developing-Learner{
+    border-left: 6px solid blue;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
